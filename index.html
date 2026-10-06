@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form>
+        <label>
+            Full Name:
+            <input type="text" name="fullname">
+        </label>
+        <br>
+
+        <label>
+            Email:
+            <input type="email" name="email">
+        </label>
+        <br>
+
+        <label>
+            Password:
+            <input type="password" name="password">
+        </label>
+        <br>
+
+        <label>
+            Birth Date:
+            <input type="date" name="birthdate">
+        </label>
+        <br>
+
+        <label>
+            Program:
+            <select name="program">
+                <option>IT</option>
+                <option>CS</option>
+            </select>
+        </label>
+        <br>
+
+        Preferred Contact:
+        <input type="radio" name="contact" value="email"> Email
+        <input type="radio" name="contact" value="phone"> Phone
+        <br>
+
+        Interests:
+        <input type="checkbox" name="interest" value="coding"> Coding
+        <input type="checkbox" name="interest" value="design"> Design
+        <br>
+
+        <label>
+            Comments:
+            <textarea name="comments"></textarea>
+        </label>
+        <br>
+
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
